@@ -1,4 +1,3 @@
-
 set(proj NUMPY)
 
 # Set dependency list
@@ -19,7 +18,7 @@ if(NOT ${CMAKE_PROJECT_NAME}_USE_SYSTEM_NUMPY)
 
   ExternalProject_Message(${proj} "${proj} - Building without Fortran compiler - Non-optimized code will be built !")
 
-  set(numpy_URL http://svn.slicer.org/Slicer3-lib-mirrors/trunk/numpy-1.4.1.tar.gz)
+  set(numpy_URL http://sourceforge.net/projects/numpy/files/NumPy/1.7.1/numpy-1.7.1.tar.gz)
   set(numpy_MD5 5c7b5349dc3161763f7f366ceb96516b)
 
   #------------------------------------------------------------------------------
